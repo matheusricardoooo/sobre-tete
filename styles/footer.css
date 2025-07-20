@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding: 95px 0px 0px 0px;
+}
+
+.contato h1 {
+    font-weight: 700;
+    color: #710000;
+}
+
+.contato p {
+    margin-left: 28%;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.contato button {
+    background-color: #710000;
+    color: #d9d9d9;
+    width: 335px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    margin-left: 35%;
+    margin-top: 30px;
+    transition: 0.5s;
+}
+
+.contato button:hover {
+    transform: scale(1.1);
+}
+
+.direitos {
+    margin-top: 50px;
+}
