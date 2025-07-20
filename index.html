@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sobre</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="img/logo-menu.png" alt="imagem da logo do menu">
+        </div>
+
+        <nav class="links">
+            <ul>
+                <li><a href="https://tetemods.vercel.app/">INÍCIO</a></li>
+                <li><a href="https://produtostete.vercel.app/">PRODUTOS</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <img onclick="showSidebar()" class="menu-mobile" src="img/menu-aberto (2) 1.png"
+                    alt="imagem do menu mobile">
+            </ul>
+        </nav>
+
+        <nav class="sidebar">
+            <ul>
+                <img onclick="hideSidebar()" class="close-menu" src="img/marca-cruzada.png"
+                    alt="imagem para o fechar o menu mobile">
+                <li><a href="https://tetemods.vercel.app/">INÍCIO</a></li>
+                <li><a href="https://produtostete.vercel.app/">PRODUTOS</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#contact">CONTATO</a></li>
+            </ul>
+        </nav>
+
+        <div class="btn-contato">
+            <button onclick="contact()">CONTATO</button>
+        </div>
+    </header>
 </body>
+
 </html>
