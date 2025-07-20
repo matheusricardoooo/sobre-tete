@@ -36,3 +36,40 @@ footer {
 .direitos {
     margin-top: 50px;
 }
+
+@media screen and (max-width: 500px) {
+
+    footer {
+        padding: 0;
+        padding: 90px 0px;
+    }
+
+    .contato h1 {
+        width: 300px;
+        font-size: 1.4rem;
+        margin-left: 20px;
+    }
+
+    .contato p {
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .contato button {
+        margin: 0;
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 250px;
+        font-size: 1rem;
+    }
+
+    .contato button:hover {
+        transform: none;
+    }
+
+    .direitos {
+        display: none;
+    }
+
+}
